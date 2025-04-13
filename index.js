@@ -1,4 +1,4 @@
-let radiusPrompt = prompt("Please enter a valid radius");
+let radiusPrompt = prompt("Please enter a radius");
 
 let radius = Number(radiusPrompt);
 
@@ -7,6 +7,6 @@ if(isNaN(radius) || radius <= 0){
 } else {
     let area = Math.PI * Math.pow(radius, 2);
 
-    alert("Your area " + radius + " is " + area.toFixed(2));
+    alert(`Your area ${radius} is ${area.toFixed(2)}`);
 }
 
